@@ -8,7 +8,7 @@ public class Start {
 		String s = "5";
 		int g = 3;
 		int j = 5;
-
+		int d = 111;
 	}
 
 }
