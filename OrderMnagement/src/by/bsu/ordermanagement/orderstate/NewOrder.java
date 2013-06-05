@@ -1,8 +1,13 @@
 package by.bsu.ordermanagement.orderstate;
 
-import by.bsu.ordermanagement.salesorder.*;
+
 
 public class NewOrder extends OrderState {
+	
+	@Override
+	public void addOrderLine(SalesOrder order) {
+		order.setNewOrder();
+	}
 	
 	@Override
 	public void register(SalesOrder order) {

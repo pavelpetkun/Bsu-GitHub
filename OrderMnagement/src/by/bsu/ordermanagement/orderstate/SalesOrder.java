@@ -1,6 +1,5 @@
-package by.bsu.ordermanagement.salesorder;
+package by.bsu.ordermanagement.orderstate;
 
-import by.bsu.ordermanagement.orderstate.*;
 public class SalesOrder {
 	private static OrderState newOrder = new NewOrder();
 	private static OrderState registered = new Registered();
@@ -33,6 +32,10 @@ public class SalesOrder {
 	
 	public void setCancelled() {
 		orderState = cancelled;
+	}
+	
+	protected void wrongCommand() {
+		System.out.print("Wrong command: ");
 	}
 	
 	
