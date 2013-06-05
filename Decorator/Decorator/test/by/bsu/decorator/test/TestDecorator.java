@@ -30,7 +30,7 @@ public class TestDecorator {
 		System.out.println(handleResult);
 		assertEquals("Compressing Stream. File Stream. ", handleResult);
 	}
-
+ 
 	@Test
 	public void testASCII7() throws ClassNotFoundException,
 			InstantiationException, IllegalAccessException {
